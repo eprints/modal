@@ -1,0 +1,11 @@
+div.ep_overlay {
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+
+body.ep_overlay {
+	overflow: hidden;
+}

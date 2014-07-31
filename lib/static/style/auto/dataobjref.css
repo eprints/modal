@@ -1,0 +1,16 @@
+.ep_dataobj_list .ep_action_list {
+	float: right;
+	list-style-type: none;
+}
+.ep_dataobj_list > li {
+	clear: right;
+	margin-top: 5px;
+}
+
+div.ep_backfill_item {
+	border: 1px solid #CCC;
+	padding: 5px;
+	background-color: #EEE;
+	margin: 0px auto 5px auto;
+	width: 90%;
+}

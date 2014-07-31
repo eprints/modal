@@ -1,0 +1,78 @@
+/* 
+ * modal.css
+ */
+
+.ep_modal {
+	position: fixed;
+	border-style: solid;
+	border-width: 1px;
+	padding: 0px;
+	z-index: 110;
+	width: 600px;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px; /* width / 2 */
+	min-height: 300px;
+	/* javascript does the height */
+}
+
+.ep_modal .ep_sr_component {
+	margin-top: 0px;
+}
+
+.ep_modal_content {
+	height: 100%;
+}
+
+.ep_modal_action_bar {
+	text-align:center;
+	padding: 5px;
+	width: 100%;
+}
+
+.ep_modal_results {
+	height: 350px;
+	overflow-y:scroll;
+	margin: 0px;
+	padding: 5px;
+}
+
+.ep_modal_results > ol {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.ep_modal_results > ol > li {
+	margin: 0px;
+	padding: 5px;
+	min-height: 30px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	cursor: pointer;
+}
+
+/* general.css */
+
+.ep_loading {
+	background: no-repeat url('images/loading.gif');
+	min-height: 60px;
+	min-width: 60px;
+}
+
+.ep_selected .ep_selected_hide { display: none }
+.ep_unselected .ep_unselected_hide { display: none }
+
+/* colors.css */
+
+.ep_modal {
+	background-color: #fff;
+}
+
+.ep_modal_results > ol > li.ep_selected {
+	background-color: #9999ff;
+}
+
+.ep_modal_results > ol > li:hover {
+	background-color: #9999ff;
+}
